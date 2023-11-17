@@ -1,0 +1,25 @@
+body{
+    background-color: goldenrod;
+    color: blueviolet;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline; block;
+} 
+.nav ul li a{
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+.nav ul li a:hover{
+    background-color: brown;
+    color: chartreuse;
+}
+image{
+    height: 50%;
+    width: 50%;
+    float: right;
+
+}
