@@ -1,6 +1,7 @@
 body{
     background-color: goldenrod;
     color: blueviolet;
+    transform-origin:left;
 }
 nav ul li{
     list-style-type: none;
