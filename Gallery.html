@@ -5,22 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <nav class="nav" style="list-style-type: none">
+        <ul class="nav" >
+        <nav class="nav">
+          <li><a href="index.html">Home page</a></li>
+          <li><a href="Aboutus.html">About us page</a></li>
+          <li><a href="Gallery.html">Gallery page</a></li>
+          <li><a href="Contactus.html">Contact page</a></li>
+        </nav>
+      </ul>
     <link rel="stylesheet" href="Mystyles.css">
-    <link rel="stylesheet" href="animate.css">
-</head>
 
-  <nav class="nav" style="list-style-type: none">
-    <ul class="nav" >
-    <nav class="nav">
-      <li><a href="index.html">Home page</a></li>
-      <li><a href="Aboutus.html">About us page</a></li>
-      <li><a href="Gallery.html">Gallery page</a></li>
-      <li><a href="Contactus.html">Contact page</a></li>
-    </nav>
-  </ul>
-
-<img src="bg.jpeg" width="100%" height="500px" alt="">
-
+   </head>
+ 
 <style>
     body{
         background-color: chocolate;
@@ -29,34 +27,93 @@
 </style>
 <body>
     <!--This is for gallery only-->
-    <div class="p-3 mb-2 bg-transparent text-dark">
-        <div class="images">
-            <h1>Our School Office</h1>
-            <img src="apac.jpg" alt="School office">
-        </div>
-        <div class="images">
-            <h1>School Compound</h1>
-            <img src="student.jpeg" alt="">
-        </div>
-        <div class="images">
-            <h1>Class rooms</h1>
-            <img src="assembler.jpeg" alt="">
-        </div>
-        <div class="images">
-            <h2>School Domitories</h2>
-            <img src="assembly.jpeg" alt="">
-            <img src="apacss.jpeg" alt="">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" class="active" aria-current="true" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" class="active" aria-current="true" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" class="active" aria-current="true" aria-label="Slide 8"></button>
 
         </div>
-        <div class="images">
-            <h3>School Cafeteria</h3>
-            <img src="girls.jpeg" alt="">
-            <p>Apac SS Ladies</p>
-        </div>
-        <div class="animate">
-            <img width="40%" height="30%" src="play ground.jpeg" alt="">
-            <p>Cultural galar</p>
-        </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Graduate.jpg" width="30%" height="30%" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School best Performing student</h5>
+              <p>Our school Office with their department arranged in full order</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Congrates.jpg" width="50%" height="50%" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School Graduate and the locality arround</h5>
+              <p>How the appearance of the school look like.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Candidates.jpg" width="30%" height="30%" class="d-block w-200" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School Candidate and the locality arround</h5>
+              <p>How the appearance of the school look like.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Aziz.jpg" width="30%" height="30%" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Designer and developer</h5>
+              <p>The person who develop this website "Aziza Walterz Ocen</p>
+            </div>
+          </div>
+       
+
+         <div class="carousel-item">
+            <img src="Teacher.jpg" width="30%" height="30%" class="d-block w-200" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School Teacher and the locality arround</h5>
+              <p>How the appearance of the school look like.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Seco.jpg" width="30%" height="30%" class="d-block w-200" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School Security officials and the locality arround</h5>
+              <p>How the appearance of the school look like.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Security.jpg" width="30%" height="30%" class="d-block w-200" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>School Security cuard and the locality arround</h5>
+              <p>How the appearance of the school look like.</p>
+            </div>
+          </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
